@@ -18,7 +18,7 @@ const students = [
     const NumberOfSubjects=Object.keys(students.scores).length;
     const TotalMarks=subjectTotal*NumberOfSubjects;
     return ((students.studentTotalMarks/TotalMarks)*100.).toFixed(2);
-    //since each student have 3 subjects and each subject have 100 marks , therefore i have used 300 to divide studentTotalMarks
+    
   }
 
 
